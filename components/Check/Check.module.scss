@@ -7,6 +7,7 @@
   background-size: cover;
 }
 .txtWrapper {
+  font-family: 'Encode Sans SC Light';
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -19,6 +20,7 @@
   p {
     padding: 0;
     width: 80%;
+    font-size: 0.9em;
     @media (min-width: 50em) {
       width: 70%;
     }

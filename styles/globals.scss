@@ -6,7 +6,6 @@
   src: local('Airbnb Cereal App Book'),
     url(../fonts/AirbnbCerealBook.woff) format('woff');
 }
-
 @font-face {
   font-family: 'Airbnb Cereal App Light';
   font-style: normal;
@@ -14,7 +13,6 @@
   src: local('Airbnb Cereal App Light'),
     url(../fonts/AirbnbCerealLight.woff) format('woff');
 }
-
 @font-face {
   font-family: 'Airbnb Cereal App Medium';
   font-style: normal;
@@ -22,7 +20,6 @@
   src: local('Airbnb Cereal App Medium'),
     url(../fonts/AirbnbCerealMedium.woff) format('woff');
 }
-
 @font-face {
   font-family: 'Airbnb Cereal App Bold';
   font-style: normal;
@@ -30,7 +27,6 @@
   src: local('Airbnb Cereal App Bold'),
     url(../fonts/AirbnbCerealBold.woff) format('woff');
 }
-
 @font-face {
   font-family: 'Airbnb Cereal App Extra Bold';
   font-style: normal;
@@ -38,13 +34,42 @@
   src: local('Airbnb Cereal App Extra Bold'),
     url(../fonts/AirbnbCerealExtraBold.woff) format('woff');
 }
-
 @font-face {
   font-family: 'Airbnb Cereal App Black';
   font-style: normal;
   font-weight: normal;
   src: local('Airbnb Cereal App Black'),
     url(../fonts/AirbnbCerealBlack.woff) format('woff');
+}
+
+/* Encode Sans SC Google FONT */
+@font-face {
+  font-family: 'Encode Sans SC Light';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Encode Sans SC Light'),
+    url(../fonts/EncodeSansSC-Light.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Encode Sans SC';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Encode Sans SC'),
+    url(../fonts/EncodeSansSC-Regular.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Encode Sans SC SemiBold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Encode Sans SC SemiBold'),
+    url(../fonts/EncodeSansSC-SemiBold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Encode Sans SC Thin';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Encode Sans SC Thin'),
+    url(../fonts/EncodeSansSC-Thin.ttf) format('truetype');
 }
 
 // IMPORT SCSS

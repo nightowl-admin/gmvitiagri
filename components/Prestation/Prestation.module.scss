@@ -3,7 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 8px 12px;
+  padding: 3em 1em;
   @media (min-width: 24em) {
     padding: 50px 36px;
   }
@@ -17,8 +17,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 2em;
+  padding: 1em;
   @media (min-width: 50em) {
+    padding: 2em;
     width: 60%;
     flex-direction: row;
   }
@@ -29,17 +30,16 @@
   flex-direction: column-reverse;
   align-items: center;
   justify-content: center;
-  padding: 2em;
+  padding: 1em;
   @media (min-width: 50em) {
+    padding: 2em;
     width: 60%;
     flex-direction: row;
   }
 }
 
 .imgContainerRight {
-  margin-left: 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 3em;
   border-radius: 15px;
   overflow: hidden;
   @media (min-width: 50em) {
@@ -49,9 +49,7 @@
   }
 }
 .imgContainerLeft {
-  margin-right: 0;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  margin: 3em;
   border-radius: 15px;
   overflow: hidden;
   @media (min-width: 50em) {
@@ -62,11 +60,13 @@
 }
 
 .txtContainer {
-  font-family: 'Airbnb Cereal App Light';
-  width: 100%;
+  font-family: 'Encode Sans SC Light';
+  width: 90%;
   text-align: left;
   justify-self: center;
-
+  font-size: 0.75em;
+  text-align: justify;
+  text-justify: auto;
   h2 {
     text-align: center;
     text-transform: uppercase;
