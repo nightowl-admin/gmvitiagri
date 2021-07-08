@@ -2,7 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import style from './Header.module.scss';
-import logo from '../../assets/logoWhite.png';
+import logo from '../../assets/logo.png';
 import facebook from '../../assets/SocialMedias/facebook.svg';
 import mail from '../../assets/SocialMedias/mail.svg';
 import instagram from '../../assets/SocialMedias/instagram.svg';
@@ -29,7 +29,7 @@ export default function Header() {
         <h4 className={style.menuLabels}>GM VITIAGRI</h4>
       </div>
       <div className={style.rightMenuWrapper}>
-        <div className={style.iconWrapper}>
+        <div className={style.iconfacebookWrapper}>
           <Link href="/">
             <a>
               <Image
@@ -42,19 +42,7 @@ export default function Header() {
             </a>
           </Link>
         </div>
-        <div className={style.iconWrapper}>
-          <Link href="/">
-            <a>
-              <Image
-                src={instagram}
-                alt="instagram"
-                layout="responsive"
-                width={25}
-                height={25}
-              />
-            </a>
-          </Link>
-        </div>
+
         <div className={style.iconWrapper}>
           <Link href="/">
             <a>

@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import style from './Prestation.module.scss';
-import pic from '../../assets/defaultPic.jpg';
 import arrachageHome from '../../assets/arrachageHome.jpg';
 import terrassementHome from '../../assets/terrassementHome.jpg';
 import preparationHome from '../../assets/preparationHome.jpg';
@@ -15,7 +14,7 @@ export default function Prestation() {
     <section>
       <div className={style.prestationWrapper}>
         <div className={style.lineWrapper}>
-          <div className={(style.imgContainer, style.imgContainerLeft)}>
+          <div className={style.imgContainerLeft}>
             <Image src={arrachageHome} alt="arrachage vignes" />
           </div>
           <div className={style.txtContainer}>
@@ -59,12 +58,12 @@ export default function Prestation() {
               projets, pour vous accompagner dans leur développement.
             </p>
           </div>
-          <div className={(style.imgContainer, style.imgContainerRight)}>
+          <div className={style.imgContainerRight}>
             <Image src={terrassementHome} alt="terrassements de vignobles" />
           </div>
         </div>
         <div className={style.lineWrapper}>
-          <div className={(style.imgContainer, style.imgContainerLeft)}>
+          <div className={style.imgContainerLeft}>
             <Image src={preparationHome} alt="préparation de sol" />
           </div>
           <div className={style.txtContainer}>
@@ -107,12 +106,12 @@ export default function Prestation() {
               récentes et modernes
             </p>
           </div>
-          <div className={(style.imgContainer, style.imgContainerRight)}>
+          <div className={style.imgContainerRight}>
             <Image src={effeuillageHome} alt="effeuillage de la vigne" />
           </div>
         </div>
         <div className={style.lineWrapper}>
-          <div className={(style.imgContainer, style.imgContainerLeft)}>
+          <div className={style.imgContainerLeft}>
             <Image src={epandageHome} alt="Fertilisation des vignes" />
           </div>
           <div className={style.txtContainer}>
@@ -152,7 +151,7 @@ export default function Prestation() {
               végétales a accompli son cycle de reproduction.
             </p>
           </div>
-          <div className={(style.imgContainer, style.imgContainerRight)}>
+          <div className={style.imgContainerRight}>
             <Image src={epareuseHome} alt="Entretenir un fossé" />
           </div>
         </div>
