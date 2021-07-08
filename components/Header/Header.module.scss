@@ -1,0 +1,52 @@
+.headerWrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  @media (min-width: 768px) {
+    padding: 10px 20px;
+  }
+}
+.rightMenuWrapper,
+.leftMenuWrapper {
+  display: flex;
+  align-items: center;
+
+  width: 70px;
+  @media (min-width: 768px) {
+    width: 150px;
+  }
+}
+.rightMenuWrapper {
+  justify-content: space-around;
+}
+.leftMenuWrapper {
+  justify-content: flex-start;
+}
+.middleMenuWrapper {
+  width: auto;
+}
+.logoWrapper {
+  width: 30px;
+  @media (min-width: 768px) {
+    width: 40px;
+  }
+}
+.iconWrapper {
+  width: 15px;
+
+  @media (min-width: 768px) {
+    width: 30px;
+  }
+}
+
+.menuLabels {
+  font-family: 'Airbnb Cereal App Light';
+  font-size: 13px;
+  padding-bottom: 5px;
+  margin: 0;
+  @media (min-width: 768px) {
+    font-size: 20px;
+  }
+}
