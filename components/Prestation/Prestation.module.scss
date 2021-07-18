@@ -40,8 +40,6 @@
 
 .imgContainerRight {
   margin: 3em;
-  border-radius: 15px;
-  overflow: hidden;
   @media (min-width: 50em) {
     margin-left: 10em;
     margin-top: 0.5em;
@@ -50,8 +48,6 @@
 }
 .imgContainerLeft {
   margin: 3em;
-  border-radius: 15px;
-  overflow: hidden;
   @media (min-width: 50em) {
     margin-right: 10em;
     margin-top: 0.5em;
@@ -80,5 +76,6 @@
   @media (min-width: 50em) {
     width: 50%;
     text-align: left;
+    font-size: 1em;
   }
 }

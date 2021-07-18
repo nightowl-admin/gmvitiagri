@@ -18,7 +18,11 @@ export default function Prestation() {
             <Image src={arrachageHome} alt="arrachage vignes" />
           </div>
           <div className={style.txtContainer}>
-            <h2>Arrachage de vignes</h2>
+            <Link href="/arrachage" passHref>
+              <a>
+                <h2>Arrachage de vignes</h2>
+              </a>
+            </Link>
             <p>
               Après plusieurs décennies de bons et loyaux services, il est temps
               de tourner la page pour se projeter dans l’avenir. L’arrachage
@@ -41,7 +45,12 @@ export default function Prestation() {
         </div>
         <div className={style.reverseLineWrapper}>
           <div className={style.txtContainer}>
-            <h2>terrassements de vignobles </h2>
+            <Link href="/terrassement" passHref>
+              <a>
+                <h2>terrassements de vignobles </h2>
+              </a>
+            </Link>
+
             <p>
               L’entreprise est aussi spécialisée dans les terrassements de
               vignobles, une activité qui consiste à préparer les parcelles de
@@ -67,15 +76,20 @@ export default function Prestation() {
             <Image src={preparationHome} alt="préparation de sol" />
           </div>
           <div className={style.txtContainer}>
-            <h2>Préparation de sol</h2>
+            <Link href="/preparation-sol" passHref>
+              <a>
+                <h2>Préparation de sol</h2>
+              </a>
+            </Link>
+
             <p>
               La préparation de sol intervient pour que votre terre soit la plus
               fertile possible.
             </p>
             <p>
-              Afin de réaliser des prestations efficaces, cet enjambeur doit
-              être équipé de différents matériels. Nous disposons de ce matériel
-              qui est manipulé par une équipe qualifiée.
+              Afin de réaliser des prestations efficaces, l´enjambeur doit être
+              équipé de différents matériels. Nous disposons de ce matériel qui
+              est manipulé par une équipe qualifiée.
             </p>
             <p>
               Le Travail du sol est important pour l’entretien du vignoble. Il
@@ -87,7 +101,12 @@ export default function Prestation() {
         </div>
         <div className={style.reverseLineWrapper}>
           <div className={style.txtContainer}>
-            <h2> Effeuillage / Vendanges </h2>
+            <Link href="/effeuillage-vendanges" passHref>
+              <a>
+                <h2> Effeuillage / Vendanges </h2>
+              </a>
+            </Link>
+
             <p>L´effeuillage de la vigne n´a plus à faire ses preuves.</p>
             <p>
               D´abord, le fait d´enlever des feuilles aère les grappes, donc
@@ -115,7 +134,12 @@ export default function Prestation() {
             <Image src={epandageHome} alt="Fertilisation des vignes" />
           </div>
           <div className={style.txtContainer}>
-            <h2>Épandage d’engrais</h2>
+            <Link href="/epandage" passHref>
+              <a>
+                <h2>Épandage d’engrais</h2>
+              </a>
+            </Link>
+
             <p>
               La Fertilisation des vignes vise à assurer une nutrition régulière
               de la vigne en éléments minéraux et du sol en matière organique.
