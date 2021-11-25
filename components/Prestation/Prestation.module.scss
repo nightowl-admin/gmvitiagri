@@ -3,13 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 3em 1em;
-  @media (min-width: 24em) {
-    padding: 50px 36px;
-  }
-  @media (min-width: 50em) {
-    padding: 100px 36px;
-  }
+  padding: 3em 1.25em;
 }
 .lineWrapper {
   width: 100%;
@@ -17,65 +11,33 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1em;
-  @media (min-width: 50em) {
-    padding: 2em;
-    width: 60%;
-    flex-direction: row;
-  }
-}
-.reverseLineWrapper {
-  width: 100%;
-  display: flex;
-  flex-direction: column-reverse;
-  align-items: center;
-  justify-content: center;
-  padding: 1em;
-  @media (min-width: 50em) {
-    padding: 2em;
-    width: 60%;
-    flex-direction: row;
-  }
+  padding: 2em 0;
 }
 
-.imgContainerRight {
-  margin: 3em;
-  @media (min-width: 50em) {
-    margin-left: 10em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-  }
-}
-.imgContainerLeft {
-  margin: 3em;
-  @media (min-width: 50em) {
-    margin-right: 10em;
-    margin-top: 0.5em;
-    margin-bottom: 0.5em;
-  }
+.imgContainer {
+  position: 'relative';
+  width: 85%;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-bottom: 1.25em;
 }
 
 .txtContainer {
   font-family: 'Encode Sans SC Light';
-  width: 90%;
-  text-align: left;
-  justify-self: center;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
   font-size: 0.75em;
-  text-align: justify;
-  text-justify: auto;
   h2 {
+    justify-self: center;
+    width: fit-content;
     text-align: center;
     text-transform: uppercase;
-    padding-bottom: 10px;
-    margin-bottom: 30px;
+    padding-bottom: 0.1em;
+    margin-bottom: 1em;
     border-bottom: 1px solid #fffefe;
-  }
-  @media (min-width: 24em) {
-    width: 80%;
-  }
-  @media (min-width: 50em) {
-    width: 50%;
-    text-align: left;
-    font-size: 1em;
   }
 }

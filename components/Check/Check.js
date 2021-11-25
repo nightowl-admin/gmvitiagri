@@ -4,7 +4,7 @@ import style from './Check.module.scss';
 export default function Check() {
   return (
     <section>
-      <div className={style.aboutWrapper}>
+      <div className={style.checkWrapper}>
         <div className={style.txtWrapper}>
           <p>
             Le savoir et l’expérience d’une bonne entreprise sont une carte en

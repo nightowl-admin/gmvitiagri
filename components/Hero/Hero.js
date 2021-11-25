@@ -8,11 +8,11 @@ export default function Hero() {
   return (
     <section className={style.heroWrapper}>
       <Header />
-      <>
-        <div className={style.heroPic}>
-          <Image src={logo} alt="GM VITIAGRI Prestataire Viticole" />
-        </div>
-      </>
+
+      <div className={style.heroPic}>
+        <Image src={logo} alt="GM VITIAGRI Prestataire Viticole" />
+      </div>
+
       <div className={style.emptyDiv} />
     </section>
   );

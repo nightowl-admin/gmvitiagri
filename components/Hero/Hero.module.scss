@@ -27,48 +27,20 @@
   }
 }
 
-.heroText {
-  margin: 0;
-  width: 80%;
-  font-family: 'Airbnb Cereal App Light';
-  font-size: 2rem;
-  line-height: 3rem;
-  text-align: center;
-  @media (min-width: 46.8em) {
-    font-size: 2.25rem;
-  }
-  @media (min-width: 73em) {
-    font-size: 2.5rem;
-  }
-}
 .heroPic {
-  width: 15em;
-  @media (min-width: 46.8em) {
+  
+  width: 12em;
+  @media (max-width: 325px) {
+    width: 10em;
+  }
+  @media (min-width: 700px) {
+    width: 15em;
+  }
+  @media (min-width: 1024px) {
     width: 20em;
   }
-  @media (min-width: 50em) {
+  @media (min-width: 1280px) {
     width: 25em;
-  }
-  @media (min-width: 73em) {
-    width: 25em;
-  }
-}
-.heroQuote {
-  margin: 0;
-  width: 80%;
-  font-family: 'Airbnb Cereal App Light';
-  font-size: 0.75rem;
-  line-height: 3rem;
-  text-align: center;
-  span {
-    font-family: 'Airbnb Cereal App';
-    font-style: italic;
-  }
-  @media (min-width: 46.8em) {
-    font-size: 1.25rem;
-  }
-  @media (min-width: 73em) {
-    font-size: 1.5rem;
   }
 }
 

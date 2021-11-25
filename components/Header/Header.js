@@ -2,30 +2,14 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import style from './Header.module.scss';
-import logo from '../../assets/logo.png';
 import facebook from '../../assets/SocialMedias/facebook.svg';
 import mail from '../../assets/SocialMedias/mail.svg';
-import instagram from '../../assets/SocialMedias/instagram.svg';
 
 export default function Header() {
   return (
     <header className={style.headerWrapper}>
+      
       <div className={style.leftMenuWrapper}>
-        <div className={style.logoWrapper}>
-          <Link href="/">
-            <a>
-              <Image
-                src={logo}
-                alt="Owl Dev Logo"
-                layout="responsive"
-                width={40}
-                height={40}
-              />
-            </a>
-          </Link>
-        </div>
-      </div>
-      <div className={style.middleMenuWrapper}>
         <h4 className={style.menuLabels}>GM VITIAGRI</h4>
       </div>
       <div className={style.rightMenuWrapper}>

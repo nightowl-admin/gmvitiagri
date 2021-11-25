@@ -14,8 +14,12 @@ export default function Prestation() {
     <section>
       <div className={style.prestationWrapper}>
         <div className={style.lineWrapper}>
-          <div className={style.imgContainerLeft}>
-            <Image src={arrachageHome} alt="arrachage vignes" />
+          <div className={style.imgContainer}>
+            <Image
+              src={arrachageHome}
+              layout="responsive"
+              alt="arrachage vignes"
+            />
           </div>
           <div className={style.txtContainer}>
             <Link href="/arrachage" passHref>
@@ -43,14 +47,20 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-        <div className={style.reverseLineWrapper}>
+        <div className={style.lineWrapper}>
+          <div className={style.imgContainer}>
+            <Image
+              src={terrassementHome}
+              layout="responsive"
+              alt="terrassements de vignobles"
+            />
+          </div>
           <div className={style.txtContainer}>
             <Link href="/terrassement" passHref>
               <a>
                 <h2>terrassements de vignobles </h2>
               </a>
             </Link>
-
             <p>
               L’entreprise est aussi spécialisée dans les terrassements de
               vignobles, une activité qui consiste à préparer les parcelles de
@@ -67,13 +77,14 @@ export default function Prestation() {
               projets, pour vous accompagner dans leur développement.
             </p>
           </div>
-          <div className={style.imgContainerRight}>
-            <Image src={terrassementHome} alt="terrassements de vignobles" />
-          </div>
         </div>
         <div className={style.lineWrapper}>
-          <div className={style.imgContainerLeft}>
-            <Image src={preparationHome} alt="préparation de sol" />
+          <div className={style.imgContainer}>
+            <Image
+              src={preparationHome}
+              layout="responsive"
+              alt="préparation de sol"
+            />
           </div>
           <div className={style.txtContainer}>
             <Link href="/preparation-sol" passHref>
@@ -99,7 +110,14 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-        <div className={style.reverseLineWrapper}>
+        <div className={style.lineWrapper}>
+          <div className={style.imgContainer}>
+            <Image
+              src={effeuillageHome}
+              layout="responsive"
+              alt="effeuillage de la vigne"
+            />
+          </div>
           <div className={style.txtContainer}>
             <Link href="/effeuillage-vendanges" passHref>
               <a>
@@ -125,13 +143,14 @@ export default function Prestation() {
               récentes et modernes
             </p>
           </div>
-          <div className={style.imgContainerRight}>
-            <Image src={effeuillageHome} alt="effeuillage de la vigne" />
-          </div>
         </div>
         <div className={style.lineWrapper}>
-          <div className={style.imgContainerLeft}>
-            <Image src={epandageHome} alt="Fertilisation des vignes" />
+          <div className={style.imgContainer}>
+            <Image
+              src={epandageHome}
+              layout="responsive"
+              alt="Fertilisation des vignes"
+            />
           </div>
           <div className={style.txtContainer}>
             <Link href="/epandage" passHref>
@@ -157,7 +176,14 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-        <div className={style.reverseLineWrapper}>
+        <div className={style.lineWrapper}>
+          <div className={style.imgContainer}>
+            <Image
+              src={epareuseHome}
+              layout="responsive"
+              alt="Entretenir un fossé"
+            />
+          </div>
           <div className={style.txtContainer}>
             <h2>Epareuse (entretien des fossés)</h2>
             <p>
@@ -174,9 +200,6 @@ export default function Prestation() {
               périodes pendant lesquelles la majorité des espèces animales et
               végétales a accompli son cycle de reproduction.
             </p>
-          </div>
-          <div className={style.imgContainerRight}>
-            <Image src={epareuseHome} alt="Entretenir un fossé" />
           </div>
         </div>
       </div>

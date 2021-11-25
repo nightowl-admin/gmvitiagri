@@ -3,7 +3,7 @@ import Hero from '../components/Hero';
 import About from '../components/About';
 import Prestation from '../components/Prestation';
 import Check from '../components/Check';
-import Header from '../components/Header';
+import Footer from '../components/Footer';
 
 export default function Home({}) {
   return (
@@ -12,7 +12,7 @@ export default function Home({}) {
       <About />
       <Prestation />
       <Check />
-      <Header />
+      <Footer />
     </MainLayout>
   );
 }
