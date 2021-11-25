@@ -12,12 +12,6 @@ export default function Hero() {
         <div className={style.heroPic}>
           <Image src={logo} alt="GM VITIAGRI Prestataire Viticole" />
         </div>
-
-        <p className={style.heroQuote}>
-          “A year from now, you’ll wish you had started today.”
-          <br />
-          <span> Karen Lamb </span>
-        </p>
       </>
       <div className={style.emptyDiv} />
     </section>
