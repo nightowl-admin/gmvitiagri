@@ -2,7 +2,6 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import style from './Prestation.module.scss';
-import separator from '../../assets/separator.png';
 import arrachageHome from '../../assets/arrachageHome.jpg';
 import terrassementHome from '../../assets/terrassementHome.jpg';
 import preparationHome from '../../assets/preparationHome.jpg';
