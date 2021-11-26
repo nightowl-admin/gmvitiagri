@@ -14,8 +14,8 @@ export default function Header() {
       </div>
       <div className={style.rightMenuWrapper}>
         <div className={style.iconfacebookWrapper}>
-          <Link href="/">
-            <a>
+         
+            <a href="https://www.facebook.com/gm.vitiagri" target="_blank">
               <Image
                 src={facebook}
                 alt="facebook"
@@ -24,11 +24,11 @@ export default function Header() {
                 height={25}
               />
             </a>
-          </Link>
+   
         </div>
 
         <div className={style.iconWrapper}>
-          <Link href="/">
+          <Link href="mailto:faurie.guillaume33@gmail.com" >
             <a>
               <Image
                 src={mail}

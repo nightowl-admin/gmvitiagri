@@ -10,7 +10,6 @@ export default function MainLayout({ children }) {
           name="description"
           content="Entreprise Sas GM Viti-agri spécialisée dans le domaine des Travaux et Services viticoles depuis 2016."
         />
-        <link rel="shortcut icon" href="/favicon.ico" />
       </Head>
       {children}
     </div>

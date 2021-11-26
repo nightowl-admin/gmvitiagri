@@ -14,11 +14,11 @@ export default function Footer() {
             </div>
             <div className={style.row}>
               <div>
-                <a href="tel:+33664504788">   06.64.50.47.88   </a>
+                <a href="tel:+33623602396">   06.23.60.23.96   </a>
               </div>
               <br/>
               <div>
-                <a href="mailto:mickaelmondon33@gmail.com"> mickaelmondon33@gmail.com</a>
+                <a href="mailto:faurie.guillaume33@gmail.com"> faurie.guillaume33@gmail.com</a>
               </div>
             </div>
         </div>

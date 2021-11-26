@@ -22,16 +22,10 @@
 .iconWrapper {
   width: 1.25em;
   margin: 0 0.5em;
-  @media (min-width: 768px) {
-    width: 1.5em;
-  }
 }
 .iconfacebookWrapper {
   width: 1em;
   margin: 0 0.5em;
-  @media (min-width: 768px) {
-    width: 1.25em;
-  }
 }
 .menuLabels {
   font-family: 'Encode Sans SC Thin';
@@ -39,12 +33,7 @@
   padding-bottom: 5px;
   margin: 0;
   @media (min-width: 700px) {
-    font-size: 1.25em;
+    font-size: 1em;
   }
-  @media (min-width: 1024px) {
-    width: 1.25
-  }
-  @media (min-width: 1280px) {
-    font-size: 1.25em;
-  }
+
 }

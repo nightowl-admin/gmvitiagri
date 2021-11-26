@@ -2,28 +2,42 @@ import React from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import style from './Prestation.module.scss';
+import separator from '../../assets/separator.png';
 import arrachageHome from '../../assets/arrachageHome.jpg';
 import terrassementHome from '../../assets/terrassementHome.jpg';
 import preparationHome from '../../assets/preparationHome.jpg';
 import effeuillageHome from '../../assets/effeuillageHome.jpg';
 import epandageHome from '../../assets/epandageHome.jpg';
 import epareuseHome from '../../assets/epareuseHome.jpg';
+import loader from '../../assets/icones/loader.png';
+import excavator from '../../assets/icones/excavator.png';
+import rollertractor from '../../assets/icones/roller-tractor.png';
+import grapes from '../../assets/icones/grapes.png';
+import fertilizer from '../../assets/icones/fertilizer.png';
+import grass from '../../assets/icones/grass.png';
 
 export default function Prestation() {
   return (
     <section>
       <div className={style.prestationWrapper}>
         <div className={style.lineWrapper}>
-          <div className={style.imgContainer}>
+          <div className={style['imgContainer'] + ' ' + style['imgleft']}>
             <Image
               src={arrachageHome}
               layout="responsive"
               alt="arrachage vignes"
             />
           </div>
-          <div className={style.txtContainer}>
+          <div className={style['txtContainer'] + ' ' + style['txtright']}>
             <Link href="/arrachage" passHref>
-              <a>
+              <a className={style.title}>
+                <div className={style.iconWrapper}>
+                  <Image
+                    src={loader}
+                    layout="responsive"
+                    alt="arrachage vignes"
+                  />
+                </div>
                 <h2>Arrachage de vignes</h2>
               </a>
             </Link>
@@ -47,17 +61,29 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-        <div className={style.lineWrapper}>
-          <div className={style.imgContainer}>
+
+        <div className={style.separator}>
+          <Image src={separator} layout="responsive" alt="separator" />
+        </div>
+
+        <div className={style['lineWrapper'] + ' ' + style['reverse']}>
+          <div className={style['imgContainer'] + ' ' + style['imgright']}>
             <Image
               src={terrassementHome}
               layout="responsive"
               alt="terrassements de vignobles"
             />
           </div>
-          <div className={style.txtContainer}>
+          <div className={style['txtContainer'] + ' ' + style['txtleft']}>
             <Link href="/terrassement" passHref>
-              <a>
+            <a className={style.title}>
+                <div className={style.iconWrapper}>
+                  <Image
+                    src={excavator}
+                    layout="responsive"
+                    alt="terrassements de vignobles"
+                  />
+                </div>
                 <h2>terrassements de vignobles </h2>
               </a>
             </Link>
@@ -78,17 +104,27 @@ export default function Prestation() {
             </p>
           </div>
         </div>
+        <div className={style.separator}>
+          <Image src={separator} layout="responsive" alt="separator" />
+        </div>
         <div className={style.lineWrapper}>
-          <div className={style.imgContainer}>
+          <div className={style['imgContainer'] + ' ' + style['imgleft']}>
             <Image
               src={preparationHome}
               layout="responsive"
               alt="préparation de sol"
             />
           </div>
-          <div className={style.txtContainer}>
+          <div className={style['txtContainer'] + ' ' + style['txtright']}>
             <Link href="/preparation-sol" passHref>
-              <a>
+            <a className={style.title}>
+                <div className={style.iconWrapper}>
+                  <Image
+                    src={rollertractor}
+                    layout="responsive"
+                    alt="preparation-sol"
+                  />
+                </div>
                 <h2>Préparation de sol</h2>
               </a>
             </Link>
@@ -110,17 +146,27 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-        <div className={style.lineWrapper}>
-          <div className={style.imgContainer}>
+        <div className={style.separator}>
+          <Image src={separator} layout="responsive" alt="separator" />
+        </div>
+        <div className={style['lineWrapper'] + ' ' + style['reverse']}>
+          <div className={style['imgContainer'] + ' ' + style['imgright']}>
             <Image
               src={effeuillageHome}
               layout="responsive"
               alt="effeuillage de la vigne"
             />
           </div>
-          <div className={style.txtContainer}>
+          <div className={style['txtContainer'] + ' ' + style['txtleft']}>
             <Link href="/effeuillage-vendanges" passHref>
-              <a>
+            <a className={style.title}>
+                <div className={style.iconWrapper}>
+                  <Image
+                    src={grapes}
+                    layout="responsive"
+                    alt="effeuillage de la vigne"
+                  />
+                </div>
                 <h2> Effeuillage / Vendanges </h2>
               </a>
             </Link>
@@ -144,17 +190,27 @@ export default function Prestation() {
             </p>
           </div>
         </div>
+        <div className={style.separator}>
+          <Image src={separator} layout="responsive" alt="separator" />
+        </div>
         <div className={style.lineWrapper}>
-          <div className={style.imgContainer}>
+          <div className={style['imgContainer'] + ' ' + style['imgleft']}>
             <Image
               src={epandageHome}
               layout="responsive"
               alt="Fertilisation des vignes"
             />
           </div>
-          <div className={style.txtContainer}>
+          <div className={style['txtContainer'] + ' ' + style['txtright']}>
             <Link href="/epandage" passHref>
-              <a>
+            <a className={style.title}>
+                <div className={style.iconWrapper}>
+                  <Image
+                    src={fertilizer}
+                    layout="responsive"
+                    alt="Fertilisation des vignes"
+                  />
+                </div>
                 <h2>Épandage d’engrais</h2>
               </a>
             </Link>
@@ -176,16 +232,28 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-        <div className={style.lineWrapper}>
-          <div className={style.imgContainer}>
+        <div className={style.separator}>
+          <Image src={separator} layout="responsive" alt="separator" />
+        </div>
+        <div className={style['lineWrapper'] + ' ' + style['reverse']}>
+          <div className={style['imgContainer'] + ' ' + style['imgright']}>
             <Image
               src={epareuseHome}
               layout="responsive"
               alt="Entretenir un fossé"
             />
           </div>
-          <div className={style.txtContainer}>
+          <div className={style['txtContainer'] + ' ' + style['txtleft']}>
+          <div className={style.title}>
+                <div className={style.iconWrapper}>
+                  <Image
+                    src={grass}
+                    layout="responsive"
+                    alt="Entretenir un fossé"
+                  />
+                </div>
             <h2>Epareuse (entretien des fossés)</h2>
+            </div>
             <p>
               Entretenir un fossé c’est avant tout lui permettre de remplir sa
               fonction principale : favoriser le libre écoulement de l’eau, pour
