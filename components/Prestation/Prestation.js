@@ -62,9 +62,7 @@ export default function Prestation() {
           </div>
         </div>
 
-        <div className={style.separator}>
-          <Image src={separator} layout="responsive" alt="separator" />
-        </div>
+       
 
         <div className={style['lineWrapper'] + ' ' + style['reverse']}>
           <div className={style['imgContainer'] + ' ' + style['imgright']}>
@@ -104,9 +102,7 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-        <div className={style.separator}>
-          <Image src={separator} layout="responsive" alt="separator" />
-        </div>
+       
         <div className={style.lineWrapper}>
           <div className={style['imgContainer'] + ' ' + style['imgleft']}>
             <Image
@@ -146,9 +142,7 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-        <div className={style.separator}>
-          <Image src={separator} layout="responsive" alt="separator" />
-        </div>
+       
         <div className={style['lineWrapper'] + ' ' + style['reverse']}>
           <div className={style['imgContainer'] + ' ' + style['imgright']}>
             <Image
@@ -190,9 +184,7 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-        <div className={style.separator}>
-          <Image src={separator} layout="responsive" alt="separator" />
-        </div>
+       
         <div className={style.lineWrapper}>
           <div className={style['imgContainer'] + ' ' + style['imgleft']}>
             <Image
@@ -232,9 +224,7 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-        <div className={style.separator}>
-          <Image src={separator} layout="responsive" alt="separator" />
-        </div>
+       
         <div className={style['lineWrapper'] + ' ' + style['reverse']}>
           <div className={style['imgContainer'] + ' ' + style['imgright']}>
             <Image
