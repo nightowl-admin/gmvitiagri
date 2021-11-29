@@ -14,11 +14,15 @@ import rollertractor from '../../assets/icones/roller-tractor.png';
 import grapes from '../../assets/icones/grapes.png';
 import fertilizer from '../../assets/icones/fertilizer.png';
 import grass from '../../assets/icones/grass.png';
+import separator from '../../assets/separator.png';
 
 export default function Prestation() {
   return (
     <section>
       <div className={style.prestationWrapper}>
+        <div className={style.separator}>
+          <Image src={separator} layout="responsive" alt="separator" />
+        </div>
         <div className={style.lineWrapper}>
           <div className={style['imgContainer'] + ' ' + style['imgleft']}>
             <Image
@@ -61,8 +65,6 @@ export default function Prestation() {
           </div>
         </div>
 
-       
-
         <div className={style['lineWrapper'] + ' ' + style['reverse']}>
           <div className={style['imgContainer'] + ' ' + style['imgright']}>
             <Image
@@ -73,7 +75,7 @@ export default function Prestation() {
           </div>
           <div className={style['txtContainer'] + ' ' + style['txtleft']}>
             <Link href="/terrassement" passHref>
-            <a className={style.title}>
+              <a className={style.title}>
                 <div className={style.iconWrapper}>
                   <Image
                     src={excavator}
@@ -101,7 +103,7 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-       
+
         <div className={style.lineWrapper}>
           <div className={style['imgContainer'] + ' ' + style['imgleft']}>
             <Image
@@ -112,7 +114,7 @@ export default function Prestation() {
           </div>
           <div className={style['txtContainer'] + ' ' + style['txtright']}>
             <Link href="/preparation-sol" passHref>
-            <a className={style.title}>
+              <a className={style.title}>
                 <div className={style.iconWrapper}>
                   <Image
                     src={rollertractor}
@@ -141,7 +143,7 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-       
+
         <div className={style['lineWrapper'] + ' ' + style['reverse']}>
           <div className={style['imgContainer'] + ' ' + style['imgright']}>
             <Image
@@ -152,7 +154,7 @@ export default function Prestation() {
           </div>
           <div className={style['txtContainer'] + ' ' + style['txtleft']}>
             <Link href="/effeuillage-vendanges" passHref>
-            <a className={style.title}>
+              <a className={style.title}>
                 <div className={style.iconWrapper}>
                   <Image
                     src={grapes}
@@ -183,7 +185,7 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-       
+
         <div className={style.lineWrapper}>
           <div className={style['imgContainer'] + ' ' + style['imgleft']}>
             <Image
@@ -194,7 +196,7 @@ export default function Prestation() {
           </div>
           <div className={style['txtContainer'] + ' ' + style['txtright']}>
             <Link href="/epandage" passHref>
-            <a className={style.title}>
+              <a className={style.title}>
                 <div className={style.iconWrapper}>
                   <Image
                     src={fertilizer}
@@ -223,7 +225,7 @@ export default function Prestation() {
             </p>
           </div>
         </div>
-       
+
         <div className={style['lineWrapper'] + ' ' + style['reverse']}>
           <div className={style['imgContainer'] + ' ' + style['imgright']}>
             <Image
@@ -233,15 +235,15 @@ export default function Prestation() {
             />
           </div>
           <div className={style['txtContainer'] + ' ' + style['txtleft']}>
-          <div className={style.title}>
-                <div className={style.iconWrapper}>
-                  <Image
-                    src={grass}
-                    layout="responsive"
-                    alt="Entretenir un fossé"
-                  />
-                </div>
-            <h2>Epareuse (entretien des fossés)</h2>
+            <div className={style.title}>
+              <div className={style.iconWrapper}>
+                <Image
+                  src={grass}
+                  layout="responsive"
+                  alt="Entretenir un fossé"
+                />
+              </div>
+              <h2>Epareuse (entretien des fossés)</h2>
             </div>
             <p>
               Entretenir un fossé c’est avant tout lui permettre de remplir sa
@@ -258,6 +260,9 @@ export default function Prestation() {
               végétales a accompli son cycle de reproduction.
             </p>
           </div>
+        </div>
+        <div className={style.separator}>
+          <Image src={separator} layout="responsive" alt="separator" />
         </div>
       </div>
     </section>

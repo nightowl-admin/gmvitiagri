@@ -4,6 +4,7 @@ import Image from 'next/image';
 import style from './Header.module.scss';
 import facebook from '../../assets/SocialMedias/facebook.svg';
 import mail from '../../assets/SocialMedias/mail.svg';
+import phone from '../../assets/SocialMedias/phone.svg';
 
 export default function Header() {
   return (
@@ -13,15 +14,17 @@ export default function Header() {
       </div>
       <div className={style.rightMenuWrapper}>
         <div className={style.iconfacebookWrapper}>
-          <a href="https://www.facebook.com/gm.vitiagri" target="_blank" rel="noreferrer">
+        <Link href="tel:+33623602396">
+            <a>
             <Image
-              src={facebook}
-              alt="facebook"
+              src={phone}
+              alt="téléphone"
               layout="responsive"
               width={25}
               height={25}
             />
           </a>
+          </Link>
         </div>
 
         <div className={style.iconWrapper}>
@@ -36,6 +39,21 @@ export default function Header() {
               />
             </a>
           </Link>
+        </div>
+        <div className={style.iconfacebookWrapper}>
+          <a
+            href="https://www.facebook.com/gm.vitiagri"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Image
+              src={facebook}
+              alt="facebook"
+              layout="responsive"
+              width={25}
+              height={25}
+            />
+          </a>
         </div>
       </div>
     </header>
